@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+}
+.block1{
+    width: 100%;
+}
+.video-container {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+video {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+}
