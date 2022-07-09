@@ -15,3 +15,46 @@ video {
     position: absolute;
     z-index: -1;
 }
+.formlocation{
+    position: absolute;
+    top: 500px;
+    left: 570px;
+}
+
+.usemylocation{
+    position: absolute;
+    top: 580px;
+    left:570px;
+width: 350px;
+height: 40px;
+font-family: inherit;
+color: white;
+background: linear-gradient(to right,#215B5C,#29A293 51%,#215B5C);
+border: none;
+text-shadow: none;
+font-weight: 700;
+text-align: center;
+z-index: -1;
+cursor: pointer;
+text-transform: uppercase;
+}
+select {
+    width: 350px;
+    height: 40px;
+    padding: 16px 20px;
+    border: 2px solid #28ADB7;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family:  sans-serif;
+  }
+  option{
+    background-color: #28ADB7;
+  }
+  .logo{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+  }
