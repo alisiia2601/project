@@ -72,3 +72,41 @@ video {
     background-image: url("bg-white.jpg");
     height: 100vh;
 }
+
+.statsLabel{
+    color: #D79632;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 2em;
+    font-style: italic;
+    line-height: 1;
+    min-width: 5em;
+}
+
+.statsText{
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-top: .2em;
+}
+
+.titlePicture{
+    position: absolute;
+    right: 40%;
+    width: 25%;
+    height: 50%;
+}
+
+.flicker{
+    animation: flickerAnim 0.3s linear;
+    animation-iteration-count: 5;
+}
+
+@keyframes flickerAnim{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
