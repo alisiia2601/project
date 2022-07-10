@@ -1,7 +1,8 @@
 const dynamicLabelSPEED = 100
-let elems = document.getElementsByClassName("dynamicLabelCounter")
+let elems = document.getElementsByClassName("statsLabel")
 var observer = new IntersectionObserver(function(entries) {
 	if(entries[0]['isIntersecting'] === true) {
+        flicker.classList.add("flicker")
 		if(entries[0]['intersectionRatio'] === 1){
             for (let elem of elems){
                 let params = {}
@@ -16,6 +17,7 @@ var observer = new IntersectionObserver(function(entries) {
             }
         }
 	else {
+        flicker.classList.remove("flicker")
         for (let elem of elems){
             clearTimeout(elem.timeout_id)
         }
