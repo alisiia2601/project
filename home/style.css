@@ -73,6 +73,13 @@ video {
     height: 100vh;
 }
 
+.statsContainer{
+    margin-top: 15vw;
+    height: 5vw;
+    padding: 0px 4em;
+    border-right: 2px solid #D79632;
+}
+
 .statsLabel{
     color: #D79632;
     font-family: 'Montserrat';
@@ -88,6 +95,17 @@ video {
     font-weight: 700;
     line-height: 1.2;
     padding-top: .2em;
+}
+
+.statsButton{
+    border: none;
+    margin: 5em;
+    width: 15em;
+    height: 3em;
+    color: white;
+    background-color: #005A64;
+    
+clip-path: polygon(0 0, 50% 0, 50% 41%, 50% 40%, 49% 0, 100% 0, 100% 100%, 50% 100%, 50% 41%, 50% 42%, 50% 100%, 0 100%);
 }
 
 .titlePicture{
@@ -110,3 +128,5 @@ video {
         opacity: 0;
     }
 }
+
+x
