@@ -104,8 +104,25 @@ video {
     height: 3em;
     color: white;
     background-color: #005A64;
-    
-clip-path: polygon(0 0, 50% 0, 50% 41%, 50% 40%, 49% 0, 100% 0, 100% 100%, 50% 100%, 50% 41%, 50% 42%, 50% 100%, 0 100%);
+    z-index: 1;
+    position: relative;
+}
+
+.statsButton::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    clip-path: polygon(50% 0, 50% 0, 50% 100%, 50% 100%);   
+    transition: clip-path 0.2s linear;
+}
+
+.statsButton:hover::before{
+    clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%); 
 }
 
 .titlePicture{
@@ -128,5 +145,3 @@ clip-path: polygon(0 0, 50% 0, 50% 41%, 50% 40%, 49% 0, 100% 0, 100% 100%, 50% 1
         opacity: 0;
     }
 }
-
-x
