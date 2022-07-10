@@ -25,6 +25,7 @@ video {
     height: auto;
     position: absolute;
     z-index: -1;
+    object-fit: fill;
 }
 
 .block1 {
@@ -74,7 +75,6 @@ video {
 }
 
 .statsContainer{
-    margin-top: 15vw;
     height: 5vw;
     padding: 0px 4em;
     border-right: 2px solid #D79632;
@@ -98,8 +98,9 @@ video {
 }
 
 .statsButton{
+    display: block;
     border: none;
-    margin: 5em;
+    margin: 0px 5em;
     width: 15em;
     height: 3em;
     color: white;
@@ -116,7 +117,7 @@ video {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #000;
+    background: black;
     clip-path: polygon(50% 0, 50% 0, 50% 100%, 50% 100%);   
     transition: clip-path 0.2s linear;
 }
