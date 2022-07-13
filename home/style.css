@@ -15,6 +15,13 @@ select {
     font-family: sans-serif;
 }
 
+h2 {
+    font-size: 2em;
+    color: #D79632;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 option {
     background-color: #28ADB7;
 }
@@ -74,13 +81,13 @@ video {
     height: 100vh;
 }
 
-.statsContainer{
+.statsContainer {
     height: 5vw;
     padding: 0px 4em;
     border-right: 2px solid #D79632;
 }
 
-.statsLabel{
+.statsLabel {
     color: #D79632;
     font-family: 'Montserrat';
     font-weight: 900;
@@ -90,14 +97,14 @@ video {
     min-width: 5em;
 }
 
-.statsText{
+.statsText {
     text-transform: uppercase;
     font-weight: 700;
     line-height: 1.2;
     padding-top: .2em;
 }
 
-.statsButton{
+.statsButton {
     display: block;
     border: none;
     margin: 0px 5em;
@@ -109,7 +116,7 @@ video {
     position: relative;
 }
 
-.statsButton::before{
+.statsButton::before {
     content: '';
     position: absolute;
     z-index: -1;
@@ -118,31 +125,67 @@ video {
     left: 0;
     right: 0;
     background: black;
-    clip-path: polygon(50% 0, 50% 0, 50% 100%, 50% 100%);   
+    clip-path: polygon(50% 0, 50% 0, 50% 100%, 50% 100%);
     transition: clip-path 0.2s linear;
 }
 
-.statsButton:hover::before{
-    clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%); 
+.statsButton:hover::before {
+    clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
 }
 
-.titlePicture{
+.titlePicture {
     position: absolute;
     right: 40%;
     width: 25%;
     height: 50%;
 }
 
-.flicker{
+.flicker {
     animation: flickerAnim 0.3s linear;
     animation-iteration-count: 5;
 }
 
-@keyframes flickerAnim{
-    from{
+@keyframes flickerAnim {
+    from {
         opacity: 1;
     }
-    to{
+
+    to {
         opacity: 0;
     }
+}
+
+
+.blockCorporateCLients {
+    position: relative;
+    background: #FFF url(https://paniqescaperoom.com/img/paniq/bg-white-2.jpg) no-repeat center;
+}
+
+.logosBlock{
+    z-index: 2;
+}
+
+.logosBlock:before {    
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 5%;
+    left: 5%;   
+    right: 5%;
+    height: 90%;
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+    background: url(https://paniqescaperoom.com/img/paniq/paniq-watermark.png) no-repeat center;
+    background-size: auto;
+    background-size: contain;
+    box-sizing: border-box;
+}
+
+.logosBlock>div>img {
+    z-index: 2;
+    width: 8em;
+    height: 3em;
+    padding: .5em;
+    object-fit: contain;
 }
