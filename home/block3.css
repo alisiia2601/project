@@ -1,0 +1,189 @@
+.bike1 {
+    position: relative;
+    left: 0;
+    top: 0;
+    filter: grayscale(100%);
+    transition: 1s;
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    z-index: -1;
+}
+
+.bike1:hover {
+    filter: grayscale(0);
+}
+
+.its {
+    position: absolute;
+    top: 70px;
+    left: 830px;
+    color: #D79632;
+    font-size: 2em;
+    background-color: black;
+}
+
+.clock1 {
+    position: absolute;
+    top: 60px;
+    left: 1300px;
+}
+
+.come {
+    position: absolute;
+    top: 150px;
+    left: 830px;
+    font-weight: bold;
+}
+
+.at {
+    position: absolute;
+    top: 180px;
+    left: 810px;
+    margin: 25px;
+}
+
+.see {
+    position: absolute;
+    top: 330px;
+    left: 830px;
+    color: white;
+    background-color: #005A64;
+    display: inline-block;
+    font-family: inherit;
+    border: none;
+    padding: none;
+    text-align: center;
+    font-weight: 700;
+    width: 250px;
+    height: 50px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.room {
+    position: relative;
+    top: 400px;
+    left: 760px;
+    height: 400px;
+    position: absolute;
+    z-index: -1;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.room:hover{
+    filter: grayscale(0);
+}
+.room1 {
+    width: 759px;
+    height: 400px;
+}
+
+.team {
+    position: absolute;
+    top: 450px;
+    left: 35px;
+    color: #D79632;
+    font-size: 2em;
+}
+
+.puzzle {
+    position: absolute;
+    top: 450px;
+    left: 500px;
+}
+
+.challenge {
+    position: absolute;
+    top: 540px;
+    left: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.whether {
+    position: absolute;
+    top: 580px;
+    left: 35px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.learn {
+    position: absolute;
+    top: 730px;
+    left: 35px;
+    color: white;
+    background-color: #005A64;
+    display: inline-block;
+    font-family: inherit;
+    border: none;
+    padding: none;
+    text-align: center;
+    font-weight: 700;
+    width: 250px;
+    height: 50px;
+}
+
+.book1 {
+    position: relative;
+    left: 0;
+    top: 800px;
+    filter: grayscale(100%);
+    transition: 1s;
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    z-index: -1;
+}
+.book1:hover{
+    filter: grayscale(0);
+}
+.bookyour {
+    position: absolute;
+    top: 850px;
+    left: 830px;
+    color: #D79632;
+    font-size: 2em;
+    background-color: black;
+}
+
+.calender {
+    position: absolute;
+    top: 850px;
+    left: 1300px;
+}
+
+.great {
+    position: absolute;
+    top: 950px;
+    left: 830px;
+    font-weight: bold;
+}
+
+.paniq {
+    position: absolute;
+    top: 980px;
+    left: 810px;
+    margin: 25px;
+}
+
+.book {
+    position: absolute;
+    top: 1150px;
+    left: 830px;
+    color: white;
+    background-color: #005A64;
+    display: inline-block;
+    font-family: inherit;
+    border: none;
+    padding: none;
+    text-align: center;
+    font-weight: 700;
+    width: 250px;
+    height: 50px;
+}
