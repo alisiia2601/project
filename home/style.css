@@ -242,6 +242,7 @@ video {
 
 .newsCarousel > div:hover{
     transform: scale(1.2);
+    cursor:pointer;
 }
 
 #play{
@@ -260,4 +261,24 @@ video {
     top: 42%;
     right: 10%;
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 40% 100%, 65% 52%, 40% 0);
+}
+
+
+.runCarousel{
+    width: 100%;
+    height: 20vw;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+.runCarouselItem{
+    width: 15%;
+    height: inherit;
+    position: absolute;
+    top: 15%;
+}
+
+.runCarouselItem > a{
+    color: #2399a1;
 }

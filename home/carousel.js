@@ -10,7 +10,6 @@ function onClickNewsBtn(event){
     let posElem = []
 
     newsItems.forEach((elem, key) => {
-        // let elemHasClass = elem.classList.contains("newsItemRight") || elem.classList.contains("newsItemCenter") || elem.classList.contains("newsItemLeft")
         let index = key + act
         if(index < 0){index = newsItems.length -1} 
         else if (index > newsItems.length -1) {index = 0}
@@ -21,4 +20,9 @@ function onClickNewsBtn(event){
         newsItems[elem[0]].classList.add(elem[1])
     })
 }
+
+
+
+
+
 
