@@ -1,0 +1,169 @@
+.footer1 {
+    background-color: black;
+    background-image: url("paniq-watermark_.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    min-height: 400px;
+
+}
+
+
+.contact {
+    position: absolute;
+    top: 30%;
+    left: 34%;
+    right: 34%;
+    height: 100%;
+}
+
+.contact>h6 {
+    font-family: 'Montserrat';
+    color: gold;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.contact>span {
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+
+}
+
+.contact>.button {
+
+    padding: 10px 20px;
+    background: linear-gradient(to right, #E0AA53, #FCCF85 30%, #E0AA53);
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 750;
+
+}
+
+.contact>.button:hover {
+    background: linear-gradient(to left, #E0AA53, #FCCF85 30%, #E0AA53);
+    text-decoration: none;
+    color: black;
+}
+
+.policy {
+    position: absolute;
+    top: 15%;
+    text-align: left;
+    float: left;
+    max-width: 280px;
+}
+
+.policy>h6 {
+
+    color: #BBB;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: 800;
+    padding: 20px 20px;
+}
+
+.policy>a {
+    padding: 5px 20px;
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.policy>a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.social {
+    position: absolute;
+    top: 15%;
+    text-align: right;
+    float: right;
+    right: 0;
+    max-width: 280px;
+}
+
+.social>h6 {
+
+    color: #BBB;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: 800;
+    padding: 20px 20px;
+}
+
+.social>a {
+    padding: 5px 20px;
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.social>a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.social>a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer2 {
+    background: #0D0F0E;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.footer2>.Partners>h6 {
+    color: #BBB;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: 800;
+    padding: 20px 20px;
+}
+
+.footer2>.Partners>a {
+    padding: 5px 20px;
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+.footer2>.Partners>img {
+    height: 45px;
+    display: block;
+    margin: 5%;
+
+}
+
+
+.footer3 {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+
+   }
+
+.footer3>.buttom {
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    padding-top: 15px;
+   
+     
+
+}
