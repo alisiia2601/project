@@ -1,0 +1,33 @@
+.block1{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: red;
+}
+
+.block1 > video, .block1 > img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    position: absolute;
+}
+
+.block1TitleContainer > h2 {
+    padding: 0.2em;
+    font-weight: bold;
+    margin-bottom: 5vh;
+    text-transform: uppercase;
+    border: 0.2em solid #d79632;
+}
+
+.block1TitleContainer {
+    top: 35%;
+    left: 35%;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+
+ .block1VideoSmoke{
+    opacity: 0.5;
+ }
