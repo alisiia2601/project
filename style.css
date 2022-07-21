@@ -1,0 +1,148 @@
+body {
+    margin: 0px;
+}
+
+select {
+    width: 350px;
+    height: 40px;
+    padding: 16px 20px;
+    border: 2px solid #28ADB7;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+option {
+    background-color: #28ADB7;
+}
+
+
+video {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+    object-fit: fill;
+}
+
+.block1 {
+    width: 100%;
+}
+
+.video-container {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.formlocation {
+    position: absolute;
+    top: 450px;
+    left: 570px;
+}
+
+.usemylocation {
+    position: absolute;
+    top: 520px;
+    left: 570px;
+    width: 350px;
+    height: 40px;
+    font-family: inherit;
+    color: white;
+    background: linear-gradient(to right, #215B5C, #29A293 51%, #215B5C);
+    border: none;
+    text-shadow: none;
+    font-weight: 700;
+    text-align: center;
+    z-index: -1;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+.logo {
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+
+.block2 {
+    background-image: url("bg-white.jpg");
+    height: 100vh;
+}
+
+.statsContainer{
+    height: 5vw;
+    padding: 0px 4em;
+    border-right: 2px solid #D79632;
+}
+
+.statsLabel{
+    color: #D79632;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 2em;
+    font-style: italic;
+    line-height: 1;
+    min-width: 5em;
+}
+
+.statsText{
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-top: .2em;
+}
+
+.statsButton{
+    display: block;
+    border: none;
+    margin: 0px 5em;
+    width: 15em;
+    height: 3em;
+    color: white;
+    background-color: #005A64;
+    z-index: 1;
+    position: relative;
+}
+
+.statsButton::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    clip-path: polygon(50% 0, 50% 0, 50% 100%, 50% 100%);   
+    transition: clip-path 0.2s linear;
+}
+
+.statsButton:hover::before{
+    clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%); 
+}
+
+.titlePicture{
+    position: absolute;
+    right: 40%;
+    width: 25%;
+    height: 50%;
+}
+
+.flicker{
+    animation: flickerAnim 0.3s linear;
+    animation-iteration-count: 5;
+}
+
+@keyframes flickerAnim{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
