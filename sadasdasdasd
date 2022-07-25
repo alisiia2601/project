@@ -1,0 +1,223 @@
+[33mcommit 0d7406613102b619ca5cfdf3753007fc521d185b[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Flockaboss <flockaboss228@gmail.com>
+Date:   Thu Jul 21 01:43:08 2022 +0200
+
+    fixing in block3
+
+[33mcommit 05594afe7238a7579ba06af2f1688d52b5203d53[m
+Author: Flockaboss <flockaboss228@gmail.com>
+Date:   Thu Jul 21 01:39:36 2022 +0200
+
+    builded blocks
+
+[33mcommit 4f7919cd3a6a07e22fe324af538cd32a89e61b4e[m
+Merge: bf4594e fdbdaa4
+Author: Flockaboss <66784597+Flockaboss@users.noreply.github.com>
+Date:   Wed Jul 20 23:06:24 2022 +0200
+
+    Merge pull request #10 from alisiia2601/Andrey
+    
+    Andrey
+
+[33mcommit bf4594e8913e2d9211b39cc1e2dc1f2dcdddb24d[m
+Merge: 2758f0a 54ceeac
+Author: Flockaboss <66784597+Flockaboss@users.noreply.github.com>
+Date:   Wed Jul 20 23:04:28 2022 +0200
+
+    Merge pull request #9 from alisiia2601/Tanya
+    
+    Tanya
+
+[33mcommit 54ceeac746b167783e8f13f5ab67dd5c179109ec[m[33m ([m[1;31morigin/Tanya[m[33m)[m
+Author: Flockaboss <66784597+Flockaboss@users.noreply.github.com>
+Date:   Wed Jul 20 23:04:00 2022 +0200
+
+    Delete project.html
+    
+    conflict
+
+[33mcommit fdbdaa4d67e762f6914261b1877fb8c9008d9084[m[33m ([m[1;31morigin/Andrey[m[33m, [m[1;32mAndrey[m[33m)[m
+Author: Flockaboss <flockaboss228@gmail.com>
+Date:   Wed Jul 20 22:50:04 2022 +0200
+
+    added running carousel
+
+[33mcommit 40fdf83178c85dbab2414e558b4d842dcd103fa9[m
+Author: Flockaboss <flockaboss228@gmail.com>
+Date:   Wed Jul 20 21:45:45 2022 +0200
+
+    finished news carousel
+
+[33mcommit 5e1d1699b3925316d0e1571db6f0129f3da2fbb5[m[33m ([m[1;32mTanya[m[33m)[m
+Author: Tetyana123 <107644476+Tetyana123@users.noreply.github.com>
+Date:   Tue Jul 19 20:19:47 2022 +0300
+
+    Delete launch.json
+
+[33mcommit 91c41d38c972dc5f6af52f7e40e885c6d2cc4141[m
+Author: Tetyana123 <oookbtatyana@gmail.com>
+Date:   Tue Jul 19 19:52:27 2022 +0300
+
+    footer
+
+[33mcommit b53fce65e3800adf12b378265e867f51862065c6[m
+Author: Tetyana123 <oookbtatyana@gmail.com>
+Date:   Tue Jul 19 19:28:35 2022 +0300
+
+    3 blocks
+
+[33mcommit 01080911e45cc5174b8a3e96f3a106d87c192b07[m
+Author: Tetyana123 <oookbtatyana@gmail.com>
+Date:   Tue Jul 19 19:06:00 2022 +0300
+
+    3 blocks
+
+[33mcommit 84f61124d484883fc28297196c3ee85e1e91ff75[m
+Author: Tetyana123 <oookbtatyana@gmail.com>
+Date:   Sun Jul 17 12:44:07 2022 +0300
+
+    celebrity
+
+[33mcommit c32259866c19dd82a3dada63de4faf58f3d93dd4[m
+Author: Tetyana123 <oookbtatyana@gmail.com>
+Date:   Sun Jul 17 00:15:37 2022 +0300
+
+    блок селебрити
+
+[33mcommit 2758f0a485498e0c398e353eecd2688c246e45e0[m
+Merge: 5744cdb 57e7851
+Author: Flockaboss <66784597+Flockaboss@users.noreply.github.com>
+Date:   Thu Jul 14 20:07:56 2022 +0200
+
+    Merge pull request #7 from alisiia2601/block3
+    
+    Block3
+
+[33mcommit 57e78510ced8f76ce826bc601e5288bf7ddcb0b6[m[33m ([m[1;31morigin/block3[m[33m)[m
+Author: alisiia2601 <alisiia.ryzhykova@icloud.com>
+Date:   Thu Jul 14 19:55:38 2022 +0300
+
+    Block3
+
+[33mcommit c148fe05f19e95d34cf1df507a1c159a12e203dc[m
+Author: Flockaboss <flockaboss228@gmail.com>
+Date:   Wed Jul 13 11:54:13 2022 +0200
+
+    made block contains corporate logos
+
+[33mcommit 5744cdbc25e6a2da645ca79d8e250977cba3c702[m
+Merge: a4b1358 e9da521
+Author: Flockaboss <66784597+Flockaboss@users.noreply.github.com>
+Date:   Mon Jul 11 00:19:18 2022 +0200
+
+    Merge pull request #6 from alisiia2601/Andrey
+    
+    Andrey
+
+[33mcommit e9da52165f7a046234aef8ddfa8a18ceaa32583b[m
+Author: Flockaboss <flockaboss228@gmail.com>
+Date:   Mon Jul 11 00:17:46 2022 +0200
+
+    some fix with positions
+
+[33mcommit f02a81af2620397173332cc3547ec1b193539333[m
+Author: Flockaboss <flockaboss228@gmail.com>
+Date:   Sun Jul 10 22:52:26 2022 +0200
+
+    added buttons
+
+[33mcommit 34b1728c06e4764507b6f03ed0ac22e031ebd354[m
+Author: Flockaboss <flockaboss228@gmail.com>
+Date:   Sun Jul 10 18:34:23 2022 +0200
+
+    as
+
+[33mcommit de96e51f7583cceb975bcfb69dd7ab4f84b4647c[m
+Author: Flockaboss <flockaboss228@gmail.com>
+Date:   Sun Jul 10 18:33:54 2022 +0200
+
+    adde more components
+
+[33mcommit e7f9f74148fb64571c9df420faec73b3c8ea0a3e[m
+Author: Flockaboss <flockaboss228@gmail.com>
+Date:   Sun Jul 10 17:39:35 2022 +0200
+
+    doing stuff
+
+[33mcommit a4b1358f0f1ff5ca8761994d6a1fb8eb9e17f4e5[m
+Merge: 5a43cf1 4fc7e60
+Author: Flockaboss <66784597+Flockaboss@users.noreply.github.com>
+Date:   Sun Jul 10 16:38:31 2022 +0200
+
+    Merge pull request #5 from alisiia2601/Andrey
+    
+    refactoring
+
+[33mcommit 4fc7e60f615f3412364d395c20d6de7e7345e5d5[m
+Author: Flockaboss <flockaboss228@gmail.com>
+Date:   Sun Jul 10 16:36:56 2022 +0200
+
+    refactoring
+
+[33mcommit 5a43cf1b6989e25ccc13dd626e2c17bfabdb2571[m
+Author: Flockaboss <flockaboss228@gmail.com>
+Date:   Sun Jul 10 15:48:01 2022 +0200
+
+    Refactoring
+
+[33mcommit 4f4bd29608cad57ebb089c60fdcd71d296a2469f[m
+Merge: 7aaf6ad e4be316
+Author: Flockaboss <66784597+Flockaboss@users.noreply.github.com>
+Date:   Sat Jul 9 22:54:06 2022 +0200
+
+    Merge pull request #2 from alisiia2601/block1
+    
+    block1
+
+[33mcommit e4be31616dc3ebd97dce94e81b01d8706727a77d[m[33m ([m[1;31morigin/block1[m[33m, [m[1;32mblock1[m[33m)[m
+Author: = <alsiiia.ryzhykova@icloud.com>
+Date:   Sat Jul 9 23:36:52 2022 +0300
+
+    block1
+
+[33mcommit 7aaf6adc3f89af8bfcc6a2960b4c48eefcb0489d[m
+Author: Flockaboss <66784597+Flockaboss@users.noreply.github.com>
+Date:   Sat Jul 9 22:33:20 2022 +0200
+
+    Update project.html
+
+[33mcommit beaf3acfa063f89db03d74120d36960a5a5e6006[m
+Author: = <alsiiia.ryzhykova@icloud.com>
+Date:   Sat Jul 9 23:12:49 2022 +0300
+
+    Block 1
+
+[33mcommit 6ecd980b7c2dc4b90983008e2efb26b20e42e054[m
+Author: = <alsiiia.ryzhykova@icloud.com>
+Date:   Sat Jul 9 21:19:11 2022 +0300
+
+    Home page video
+
+[33mcommit 0b7c7507d0be53a2feaf932749bc62c74d179e26[m
+Author: = <alsiiia.ryzhykova@icloud.com>
+Date:   Sat Jul 9 18:15:50 2022 +0300
+
+    First commit
+
+[33mcommit a60141476a2523510738104ffd728013836bc29d[m[33m ([m[1;31morigin/1thmenu[m[33m)[m
+Author: Tetyana123 <oookbtatyana@gmail.com>
+Date:   Sat Jul 9 18:15:18 2022 +0300
+
+    проверка
+
+[33mcommit ccccd22355102a183b2755b8e9c69a7b6c189174[m[33m ([m[1;31morigin/Yuliia[m[33m)[m
+Author: = <alsiiia.ryzhykova@icloud.com>
+Date:   Sat Jul 9 18:00:43 2022 +0300
+
+    first commit
+
+[33mcommit 16e500fe162282205fe8f43936b96b661845fdaa[m
+Author: = <alsiiia.ryzhykova@icloud.com>
+Date:   Sat Jul 9 17:56:49 2022 +0300
+
+    New commit
